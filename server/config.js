@@ -1,0 +1,8 @@
+module.exports = {
+    PORT: process.env.SIMPLE_DEMO_PORT,
+    DEMO_AUTHY_API_KEY: process.env.DEMO_AUTHY_API_KEY,
+    SECRET: "SUPERSECRETSECRET",
+    TWILIO_ACCT_SID: process.env.DEMO_TWILIO_ACCOUNT_SID,
+    TWILIO_AUTH_TOKEN: process.env.DEMO_TWILIO_AUTH_TOKEN,
+    SERVICE_SID: process.env.VERIFY_SERVICE_SID
+};
